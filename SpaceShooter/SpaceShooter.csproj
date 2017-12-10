@@ -225,13 +225,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BGscroller.cs" />
     <Compile Include="Assets\Scripts\DestoryByBoundry.cs" />
     <Compile Include="Assets\Scripts\DestroyByContact.cs" />
     <Compile Include="Assets\Scripts\DestroyByTime.cs" />
+    <Compile Include="Assets\Scripts\EvasiveManeuver.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\Mover.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\RandomRotator.cs" />
+    <Compile Include="Assets\Scripts\WeaponController.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
