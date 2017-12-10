@@ -54,13 +54,15 @@ public class GameController : MonoBehaviour
                 Quaternion spawnRotation = Quaternion.identity;
                 Instantiate(hazard, spawnPosition, spawnRotation);
                 yield return new WaitForSeconds(spawnWait);
+
+                if (gameover)
+                {
+                    restartText.text = "Press 'R' to restart the game";
+                    restart = true;
+                    break;
+                }
             }
-            if (gameover)
-            {
-                restartText.text = "Press 'R' to restart the game";
-                restart = true;
-                break;
-            }
+            
             yield return new WaitForSeconds(waveWait);
             
         }
