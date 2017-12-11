@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NightMares", "NightMares.csproj", "{254B0F77-DC08-EB5B-28A4-2C3893A91CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NightMares.Editor", "NightMares.Editor.csproj", "{CDD6AD6C-739D-436B-44B7-FC5B398A67DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{254B0F77-DC08-EB5B-28A4-2C3893A91CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254B0F77-DC08-EB5B-28A4-2C3893A91CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254B0F77-DC08-EB5B-28A4-2C3893A91CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254B0F77-DC08-EB5B-28A4-2C3893A91CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD6AD6C-739D-436B-44B7-FC5B398A67DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD6AD6C-739D-436B-44B7-FC5B398A67DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD6AD6C-739D-436B-44B7-FC5B398A67DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD6AD6C-739D-436B-44B7-FC5B398A67DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
